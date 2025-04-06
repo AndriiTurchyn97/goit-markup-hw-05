@@ -451,6 +451,27 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="footer-input-text">Subscribe</p>
+          <form class="footer-form" action="">
+            <label>
+              <input class="footer-input" 
+              type="email" 
+              name="email" 
+              id="email" 
+              placeholder="Email">
+            </label>
+            <button 
+            class="footer-input-btn" 
+            type="submit">Subscribe 
+            <svg 
+            class="footer-btn-svg"
+             width="24" 
+             height="24">
+              <use href="./images/icons.svg#icon-telegrama"></use>
+            </svg></button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -513,8 +534,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <div class="modal-div">
+            <input
+              class="modal-checkbox visually-hidden"
+              type="checkbox"
+              id="policy"
+              name="policy"
+              value="true"
+              required
+            />
+            <label class="modal-check-text" for="policy"
+              ><span><svg width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg></span> I accept the terms and conditions of the&nbsp; <a href="#">Privacy Policy</a href="#"></label
+            >
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
         </form>
-        <button type="button" class="modal-btn">Send</button>
       </div>
     </div>
   </body>
