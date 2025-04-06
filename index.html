@@ -451,16 +451,16 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-input-form">
           <p class="footer-input-text">Subscribe</p>
           <form class="footer-form">
-            <label>
+            <label class="footer-label">
               <input
                 class="footer-input"
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Email"
+                placeholder="E-mail"
               />
             </label>
             <button class="footer-input-btn" type="submit">
@@ -473,7 +473,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg class="close-svg" width="8" height="8">
@@ -525,29 +525,31 @@
             </div>
           </div>
           <div class="modal-div">
-            <label class="modal-label" for="user-text">Comment</label>
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-div">
+          <div class="modal-div-check">
             <input
               class="modal-checkbox visually-hidden"
               type="checkbox"
-              id="policy"
-              name="policy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label class="modal-check-text" for="policy">
-              <span
+            <label class="modal-check-text" for="user-privacy">
+              <span class="modal-span"
                 ><svg width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg
               ></span>
-              I accept the terms and conditions of the&nbsp;<a href="#"
+              I accept the terms and conditions of the&nbsp;<a
+                class="link-privacy"
+                href="#"
                 >Privacy Policy</a
               ></label
             >
